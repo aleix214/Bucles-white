@@ -7,7 +7,7 @@ while num1 > 0:
 	suma+=num1
 	num1 = int(input("Escribe otro: "))
 
-print("La suma es de los numeros positivos es:", str(suma) + ".")
+print "La suma de los numeros positivos es:", str(suma) + "."
 
 
 
