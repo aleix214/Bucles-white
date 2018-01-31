@@ -5,7 +5,7 @@ num2 = int(input("Escriba un número mayor que el anterior: "))
 
 while num2 > num1:
     num1 = num2
-    num2 = int(input("Escriba un número mayor que el anterior: "))
+    num2 = int(input("Escriba un número mayor que el anterior, " + str(num1) + ": ")) 
 
 print("No es mayor que", str(num1) + ".")
 print("Programa terminado")
