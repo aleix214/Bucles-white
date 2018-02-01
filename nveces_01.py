@@ -6,7 +6,7 @@ i=0
 
 
 while (i<num1):
-	i+=1
-	print (input("Escribe un número: "))
+	aux= int(input("Escribe un número: "))
+	if (aux>0):
+		i+=1
 
-print "Programa finalizado"
