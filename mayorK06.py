@@ -8,3 +8,5 @@ while num1>0:
 	suma=aux+suma
 	if (suma>num1):
 		print "Ha superado el límite. La suma de los números introducidos es", str(suma) + "." 
+		break
+
