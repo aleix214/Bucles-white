@@ -11,5 +11,5 @@ while (i<num1):
 		i+=1
 		suma=suma+num1
 	
-print "Has escrito", str(num1) +",", str(i) + " de ellos positivos."
+print "Has escrito", str(i) +",", str(suma) + " de ellos positivos."
 
