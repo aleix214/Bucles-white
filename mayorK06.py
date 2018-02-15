@@ -1,12 +1,16 @@
 #coding: utf­8
 
-num1 = float(input("Escribe el límite: "))
-suma=0
+lim = float(input("Escriba el valor límite: "))
+while lim <= 0:
+    lim = float(input("El límite ha ser mayor que 0. Vuélve a ponerlo: "))
 
-while num1>0:
-	aux = float(input("Escribe otro: "))
-	suma=aux+suma
-	if (suma>num1):
-		print "Ha superado el límite. La suma de los números introducidos es", str(suma) + "." 
-		break
+num = float(input("Escriba un número: "))
+suma = 0
+suma += num
 
+while suma < limite:
+    num = float(input("Escriba otro número: "))
+    suma += num
+
+print("Ha superado el límite. La suma de los números positivos introducidos es", str(suma) + ".")
+print("Ha finalizado")
